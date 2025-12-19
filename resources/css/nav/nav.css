@@ -1,0 +1,17 @@
+.nav {
+    display: flex;
+    height: 5.5rem;
+    padding: 1.25rem 9.625rem 1.25rem 9.6875rem;
+    justify-content: space-between;
+    align-items: center;
+    background: #F4C7A7;
+}
+
+.nav-items {
+    gap: 3.125rem;
+}
+
+.contact-button {
+    background: #97B8C9;
+    border-radius: 3.125rem;
+}
