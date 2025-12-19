@@ -8,7 +8,7 @@
         <meta name="author" content="Dambiermont Stéphane">
         <meta name="description" content="{{ __('headings.meta_description') }}">
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-            @vite(['resources/css/app.css', 'resources/js/app.js'])
+            @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/css/nav/nav.css'])
         @endif
         <title>{{ config('app.name') }}</title>
     </head>
